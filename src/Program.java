@@ -10,23 +10,6 @@ public class Program {
         Scanner scan = new Scanner(System.in);
         CarnetContacts contacts = CarnetContacts.getInstance();
         contacts.addList(CsvReader.readCsvFile("src\\data\\test.csv"));
-
-//        for (int i = 0; i < 2; i++) {
-//            Contact contact = new Contact();
-//            System.out.println("nom ?");
-//            contact.setNom(scan.nextLine());
-//            System.out.println("prenom ?");
-//            contact.setPrenom(scan.nextLine());
-//            System.out.println("numero tel ?");
-//            contact.setNumeroTelephone(scan.nextLine());
-//            System.out.println("adresse mail ?");
-//            contact.setAdresseEmail(scan.nextLine());
-//            System.out.println("adresse physique ?");
-//            contact.setAdressePhysique(scan.nextLine());
-//            System.out.println("autresInformations ?");
-//            contact.setAutresInformations(scan.nextLine());
-//            contacts.add(contact);
-//        }
         System.out.println(contacts);
     }
 }

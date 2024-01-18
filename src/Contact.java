@@ -47,13 +47,13 @@ public class Contact {
 
     @Override
     public String toString() {
-        return "\t\tContact{" +
-                "\n\t\t\tnom='" + nom + '\'' +
-                ",\n\t\t\tprenom='" + prenom + '\'' +
-                ",\n\t\t\tnumeroTelephone='" + numeroTelephone + '\'' +
-                ",\n\t\t\tadresseEmail='" + adresseEmail + '\'' +
-                ",\n\t\t\tadressePhysique='" + adressePhysique + '\'' +
-                ",\n\t\t\tautresInformations='" + autresInformations + '\'' +
+        return "\tContact {" +
+                "\n\t\tnom='" + nom + '\'' +
+                ",\n\t\tprenom='" + prenom + '\'' +
+                ",\n\t\tnumeroTelephone='" + numeroTelephone + '\'' +
+                ",\n\t\tadresseEmail='" + adresseEmail + '\'' +
+                ",\n\t\tadressePhysique='" + adressePhysique + '\'' +
+                ",\n\t\tautresInformations='" + autresInformations + '\'' +
                 "\n\t\t}\n";
     }
 }

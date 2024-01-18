@@ -15,7 +15,6 @@ public class CsvReader {
 
 
             while ((line = br.readLine()) != null) {
-                System.out.println(line);
                 String[] values = line.split(",");
 
                 Contact contact = new Contact();
